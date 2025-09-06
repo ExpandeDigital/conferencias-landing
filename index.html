@@ -15,9 +15,6 @@
             color: #E6F1FF; /* Un blanco suave para el texto */
             scroll-behavior: smooth;
         }
-        .text-gold { color: #FFD700; } /* Dorado */
-        .bg-gold { background-color: #FFD700; }
-        .bg-card { background-color: #172A45; } /* Un azul un poco más claro para las tarjetas */
     </style>
 </head>
 <body class="antialiased">
@@ -25,10 +22,10 @@
     <!-- Header -->
     <header class="py-6 px-4 sticky top-0 z-20 bg-[#0A192F]/80 backdrop-blur-sm">
         <div class="container mx-auto flex justify-between items-center">
-            <h2 class="text-2xl font-bold text-gold">DE CERO A CIEN</h2>
+            <h2 class="text-2xl font-bold text-[#FFD700]">DE CERO A CIEN</h2>
             <nav class="hidden md:flex space-x-8 items-center">
-                <a href="#conferencias" class="hover:text-gold transition-colors">Conferencias</a>
-                <a href="#testimonios" class="hover:text-gold transition-colors">Testimonios</a>
+                <a href="#conferencias" class="hover:text-[#FFD700] transition-colors">Conferencias</a>
+                <a href="#testimonios" class="hover:text-[#FFD700] transition-colors">Testimonios</a>
                 <a href="#contacto" class="bg-yellow-400 text-gray-900 font-semibold py-3 px-8 rounded-lg transition-transform transform hover:scale-105">Contacto</a>
             </nav>
             <div class="md:hidden">
@@ -41,7 +38,7 @@
     <section class="relative min-h-[60vh] flex items-center justify-center text-center overflow-hidden px-4" style="background: linear-gradient(to top, #0A192F, transparent), linear-gradient(to bottom, #0A192F, transparent);">
         <div class="relative z-10 max-w-4xl">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
-                Lleva la Estrategia <span class="text-gold">DE CERO A CIEN</span> a tu Evento
+                Lleva la Estrategia <span class="text-[#FFD700]">DE CERO A CIEN</span> a tu Evento
             </h1>
             <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
                 Conferencias de alto impacto sobre emprendimiento, innovación y la sinergia Humano-IA, diseñadas para transformar audiencias.
@@ -55,31 +52,58 @@
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">Catálogo de Conferencias Estratégicas</h2>
-                <div class="w-24 h-1.5 bg-gold mx-auto rounded-full"></div>
+                <div class="w-24 h-1.5 bg-[#FFD700] mx-auto rounded-full"></div>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
-                 <div class="bg-card p-8 rounded-lg shadow-xl border border-gray-700 text-center transition-transform transform hover:-translate-y-2">
-                    <h3 class="text-2xl font-bold text-gold mb-3">El Fin de la Soledad del Estratega</h3>
+                 <div class="bg-[#172A45] p-8 rounded-lg shadow-xl border border-gray-700 text-center transition-transform transform hover:-translate-y-2 flex flex-col">
+                    <div class="mx-auto bg-[#FFD700]/10 p-3 rounded-full mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-target"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#FFD700] mb-3">El Fin de la Soledad del Estratega</h3>
                     <p class="text-gray-300 mb-4 font-medium">De la Idea a un Modelo de Negocio a Prueba de Balas.</p>
+                    <p class="text-sm text-gray-400 italic mb-6">Ideal para emprendedores en etapas tempranas y ecosistemas de innovación.</p>
+                    <div class="border-t border-gray-700 pt-4 text-left space-y-2 text-sm text-gray-300 mt-auto">
+                        <div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock mr-2 text-[#FFD700]"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span>Duración: 90 minutos</span></div>
+                        <div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign mr-2 text-[#FFD700]"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg><span>Inversión: 1,000 USD + gastos</span></div>
+                    </div>
+                     <a href="#" class="mt-6 w-full bg-transparent border-2 border-[#FFD700] text-[#FFD700] font-semibold py-3 rounded-lg transition-colors hover:bg-[#FFD700] hover:text-gray-900">Ver más detalles</a>
                 </div>
-                <div class="bg-card p-8 rounded-lg shadow-xl border border-gray-700 text-center transition-transform transform hover:-translate-y-2">
-                    <h3 class="text-2xl font-bold text-gold mb-3">La Máquina de Crecimiento</h3>
+                <div class="bg-[#172A45] p-8 rounded-lg shadow-xl border border-gray-700 text-center transition-transform transform hover:-translate-y-2 flex flex-col">
+                    <div class="mx-auto bg-[#FFD700]/10 p-3 rounded-full mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#FFD700] mb-3">La Máquina de Crecimiento</h3>
                     <p class="text-gray-300 mb-4 font-medium">Cómo Diseñar un Funnel de Ventas con un LTV/CAC de 20 a 1.</p>
+                    <p class="text-sm text-gray-400 italic mb-6">Ideal para startups en fase de crecimiento y equipos de marketing.</p>
+                    <div class="border-t border-gray-700 pt-4 text-left space-y-2 text-sm text-gray-300 mt-auto">
+                        <div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock mr-2 text-[#FFD700]"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span>Duración: 90 minutos</span></div>
+                        <div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign mr-2 text-[#FFD700]"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg><span>Inversión: 1,000 USD + gastos</span></div>
+                    </div>
+                    <a href="#" class="mt-6 w-full bg-transparent border-2 border-[#FFD700] text-[#FFD700] font-semibold py-3 rounded-lg transition-colors hover:bg-[#FFD700] hover:text-gray-900">Ver más detalles</a>
                 </div>
-                <div class="bg-card p-8 rounded-lg shadow-xl border border-gray-700 text-center transition-transform transform hover:-translate-y-2">
-                    <h3 class="text-2xl font-bold text-gold mb-3">El Co-Piloto Estratégico</h3>
+                <div class="bg-[#172A45] p-8 rounded-lg shadow-xl border border-gray-700 text-center transition-transform transform hover:-translate-y-2 flex flex-col">
+                    <div class="mx-auto bg-[#FFD700]/10 p-3 rounded-full mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cpu"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#FFD700] mb-3">El Co-Piloto Estratégico</h3>
                     <p class="text-gray-300 mb-4 font-medium">Integrando la Inteligencia Artificial en el ADN de tu Negocio.</p>
+                    <p class="text-sm text-gray-400 italic mb-6">Ideal para líderes de negocio, C-Levels y equipos de innovación.</p>
+                     <div class="border-t border-gray-700 pt-4 text-left space-y-2 text-sm text-gray-300 mt-auto">
+                        <div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock mr-2 text-[#FFD700]"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span>Duración: 90 minutos</span></div>
+                        <div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign mr-2 text-[#FFD700]"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg><span>Inversión: 1,000 USD + gastos</span></div>
+                    </div>
+                    <a href="#" class="mt-6 w-full bg-transparent border-2 border-[#FFD700] text-[#FFD700] font-semibold py-3 rounded-lg transition-colors hover:bg-[#FFD700] hover:text-gray-900">Ver más detalles</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonios y Prueba Social -->
-    <section id="testimonios" class="py-20 bg-card">
+    <section id="testimonios" class="py-20 bg-[#172A45]">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">Empresas que ya han dado el Salto</h2>
-                <div class="w-24 h-1.5 bg-gold mx-auto rounded-full"></div>
+                <div class="w-24 h-1.5 bg-[#FFD700] mx-auto rounded-full"></div>
             </div>
             <div class="text-center text-gray-400 mb-16">
                 <p class="leading-loose text-lg">Expande Digital &bull; Inversiones Cuoco Pazzo &bull; Dreamoms &bull; Befine Today &bull; Extreme Clean &bull; Trident Group</p>
@@ -88,12 +112,22 @@
                 <div class="bg-[#0A192F] p-8 rounded-lg border border-gray-700">
                     <p class="text-gray-300 italic mb-6">"Cristian transformó completamente la perspectiva de nuestro equipo sobre estrategia empresarial. Su enfoque práctico y metodología clara nos permitió implementar cambios inmediatos."</p>
                     <p class="font-semibold">Claudia Guerra</p>
-                    <p class="text-gold text-sm">Founder & CEO Dreamoms</p>
+                    <p class="text-[#FFD700] text-sm">Founder & CEO Dreamoms</p>
                 </div>
                 <div class="bg-[#0A192F] p-8 rounded-lg border border-gray-700">
                     <p class="text-gray-300 italic mb-6">"Una conferencia excepcional que combina teoría sólida con casos prácticos. Los asistentes salieron con herramientas concretas para aplicar en sus organizaciones."</p>
                     <p class="font-semibold">Paola Murga</p>
-                    <p class="text-gold text-sm">Owner & CEO Cuoco Pazzo</p>
+                    <p class="text-[#FFD700] text-sm">Owner & CEO Cuoco Pazzo</p>
+                </div>
+                <div class="bg-[#0A192F] p-8 rounded-lg border border-gray-700">
+                    <p class="text-gray-300 italic mb-6">"El contenido de Cristian es de clase mundial. Su capacidad para conectar con la audiencia y entregar valor real es impresionante."</p>
+                    <p class="font-semibold">Juan Carlos Inga</p>
+                    <p class="text-[#FFD700] text-sm">Owner & CEO Extreme Clean</p>
+                </div>
+                <div class="bg-[#0A192F] p-8 rounded-lg border border-gray-700">
+                    <p class="text-gray-300 italic mb-6">"Recomiendo ampliamente las conferencias de Cristian. Su experiencia y conocimiento estratégico son invaluables para cualquier organización."</p>
+                    <p class="font-semibold">Alex Rivas</p>
+                    <p class="text-[#FFD700] text-sm">Owner Trident Group Chile</p>
                 </div>
             </div>
         </div>
@@ -106,24 +140,24 @@
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">Inicia la Conversación</h2>
                 <p class="text-lg text-gray-300">Cuéntanos sobre tu evento y creemos una experiencia transformadora.</p>
             </div>
-            <form class="bg-card p-8 rounded-lg shadow-xl border border-gray-700 space-y-6">
+            <form class="bg-[#172A45] p-8 rounded-lg shadow-xl border border-gray-700 space-y-6">
                 <div class="grid md:grid-cols-2 gap-6">
                     <div>
                         <label for="nombre" class="block mb-2 font-medium">Nombre</label>
-                        <input type="text" id="nombre" class="w-full p-3 bg-[#0A192F] rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-gold">
+                        <input type="text" id="nombre" class="w-full p-3 bg-[#0A192F] rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[#FFD700]">
                     </div>
                     <div>
                         <label for="empresa" class="block mb-2 font-medium">Empresa</label>
-                        <input type="text" id="empresa" class="w-full p-3 bg-[#0A192F] rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-gold">
+                        <input type="text" id="empresa" class="w-full p-3 bg-[#0A192F] rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[#FFD700]">
                     </div>
                 </div>
                 <div>
                     <label for="email" class="block mb-2 font-medium">Email</label>
-                    <input type="email" id="email" class="w-full p-3 bg-[#0A192F] rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-gold">
+                    <input type="email" id="email" class="w-full p-3 bg-[#0A192F] rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[#FFD700]">
                 </div>
                 <div>
                     <label for="mensaje" class="block mb-2 font-medium">Mensaje</label>
-                    <textarea id="mensaje" rows="4" class="w-full p-3 bg-[#0A192F] rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-gold" placeholder="Cuéntanos sobre tu evento, audiencia y objetivos..."></textarea>
+                    <textarea id="mensaje" rows="4" class="w-full p-3 bg-[#0A192F] rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[#FFD700]" placeholder="Cuéntanos sobre tu evento, audiencia y objetivos..."></textarea>
                 </div>
                 <div>
                     <button type="submit" class="w-full bg-yellow-400 text-gray-900 font-semibold py-3 px-8 rounded-lg transition-transform transform hover:scale-105">Enviar Solicitud</button>
@@ -135,7 +169,7 @@
     <!-- Footer -->
     <footer class="bg-[#0A192F] border-t border-gray-800 py-12">
         <div class="container mx-auto px-6 text-center text-gray-400">
-            <p class="text-2xl font-bold text-gold mb-2">DE CERO A CIEN</p>
+            <p class="text-2xl font-bold text-[#FFD700] mb-2">DE CERO A CIEN</p>
             <p>&copy; 2025 DE CERO A CIEN. Todos los derechos reservados.</p>
         </div>
     </footer>
