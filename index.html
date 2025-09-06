@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferencias Estratégicas - DE CERO A CIEN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A192F; /* Azul Noche */
+            color: #E6F1FF; /* Un blanco suave para el texto */
+            scroll-behavior: smooth;
+        }
+        .text-gold { color: #FFD700; } /* Dorado */
+        .bg-gold { background-color: #FFD700; }
+        .bg-card { background-color: #172A45; } /* Un azul un poco más claro para las tarjetas */
+        .btn-primary {
+            @apply bg-yellow-400 text-gray-900 font-semibold py-3 px-8 rounded-lg transition-transform duration-300 ease-in-out;
+        }
+        .btn-primary:hover {
+            @apply transform scale-105 shadow-lg;
+        }
+        .section-title {
+            @apply text-4xl font-bold text-center mb-12;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-[#0A192F] py-6 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gold">DE CERO A CIEN</h1>
+            <nav>
+                <a href="#conferencias" class="text-gray-300 hover:text-gold px-4 transition">Conferencias</a>
+                <a href="#conferencistas" class="text-gray-300 hover:text-gold px-4 transition">Conferencistas</a>
+                <a href="#contacto" class="text-gray-300 hover:text-gold px-4 transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-24 text-center bg-cover bg-center" style="background-image: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), url('https://source.unsplash.com/1600x900/?business,conference');">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl font-extrabold mb-4 text-white">Transforma tu Negocio con Ideas que Inspiran</h2>
+            <p class="text-xl mb-8 text-gray-300">Conferencias de alto impacto para emprendedores que buscan escalar al siguiente nivel.</p>
+            <a href="#contacto" class="btn-primary">Agenda una Conferencia</a>
+        </div>
+    </section>
+
+    <section id="conferencias" class="py-20">
+        <div class="container mx-auto px-6">
+            <h3 class="section-title">Nuestras Conferencias</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-card rounded-lg shadow-xl p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                    <h4 class="text-2xl font-bold mb-4 text-gold">Mentalidad Imparable: El ADN del Fundador Exitoso</h4>
+                    <p class="text-gray-400">Una inmersión profunda en la psicología del alto rendimiento, la resiliencia y la toma de decisiones bajo presión que define a los líderes que trascienden.</p>
+                </div>
+                <div class="bg-card rounded-lg shadow-xl p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                    <h4 class="text-2xl font-bold mb-4 text-gold">Ventas Exponenciales: De Cero a un Millón</h4>
+                    <p class="text-gray-400">Estrategias y tácticas probadas para construir una máquina de ventas predecible, desde la prospección y el cierre hasta la fidelización de clientes.</p>
+                </div>
+                <div class="bg-card rounded-lg shadow-xl p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                    <h4 class="text-2xl font-bold mb-4 text-gold">Marketing Disruptivo: Construye una Marca que Amen</h4>
+                    <p class="text-gray-400">El arte y la ciencia de crear marcas memorables en un mercado saturado. Aprende a contar tu historia, construir una comunidad y convertir clientes en embajadores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="conferencistas" class="py-20 bg-card">
+        <div class="container mx-auto px-6">
+            <h3 class="section-title">Nuestros Conferencistas</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <div class="p-6">
+                    <div class="w-40 h-40 rounded-full mx-auto bg-gray-700 mb-4 flex items-center justify-center"><span class="text-gray-400"></span></div>
+                    <h4 class="text-xl font-bold text-gold">Javier Saldaña</h4>
+                    <p class="text-gray-400">Estratega de Negocios</p>
+                </div>
+                <div class="p-6">
+                    <div class="w-40 h-40 rounded-full mx-auto bg-gray-700 mb-4 flex items-center justify-center"><span class="text-gray-400"></span></div>
+                    <h4 class="text-xl font-bold text-gold">Camila Gómez</h4>
+                    <p class="text-gray-400">
